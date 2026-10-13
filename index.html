@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abvelt Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="top-bar bg-info text-white py-2 py-md-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <div
+                        class="contact-info d-flex flex-column flex-sm-row justify-content-center justify-content-md-start align-items-center flex-wrap gap-2 gap-md-4">
+                        <a href="mailto:example@gmail.com"
+                            class="d-flex align-items-center gap-2 text-white text-decoration-none fs-6 text-nowrap">
+                            <i class="bi bi-envelope-fill fs-6"></i>
+                            <span>Email : example@gmail.com</span>
+                        </a>
+                        <a href="tel:+9876543210"
+                            class="d-flex align-items-center gap-2 text-white text-decoration-none fs-6 text-nowrap">
+                            <i class="bi bi-telephone-fill fs-6"></i>
+                            <span>Call : +9876543210</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="social-icons d-flex justify-content-center justify-content-md-end align-items-center gap-3 mt-2 mt-md-0">
+                        <a href="#" aria-label="Facebook" class="text-white text-decoration-none fs-6">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="#" aria-label="Twitter" class="text-white text-decoration-none fs-6">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="#" aria-label="LinkedIn" class="text-white text-decoration-none fs-6">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="#" aria-label="Instagram" class="text-white text-decoration-none fs-6">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <nav class="navbar navbar-expand-lg bg-white sticky-top main-navbar py-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.jpg" alt="Abvelt Logo" class="logo img-fluid d-block">
+            </a>
+            <button class="navbar-toggler py-1 px-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-4 pt-2 pt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-info fw-bold fs-6 text-nowrap py-2 px-1 px-lg-0"
+                            href="#heroCarousel">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-bold fs-6 text-nowrap py-2 px-1 px-lg-0" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-bold fs-6 text-nowrap py-2 px-1 px-lg-0"
+                            href="#services">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-bold fs-6 text-nowrap py-2 px-1 px-lg-0"
+                            href="#projects">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-bold fs-6 text-nowrap py-2 px-1 px-lg-0"
+                            href="#pricing">PRICING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-bold fs-6 text-nowrap py-2 px-1 px-lg-0" href="#team">TEAM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-bold fs-6 text-nowrap py-2 px-1 px-lg-0"
+                            href="#testimonial">TESTIMONIAL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-bold fs-6 text-nowrap py-2 px-1 px-lg-0" href="#blog">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-bold fs-6 text-nowrap py-2 px-1 px-lg-0"
+                            href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="heroCarousel" class="carousel slide position-relative" data-bs-ride="carousel" data-bs-interval="4000">
+        <div class="carousel-indicators d-flex justify-content-center align-items-center gap-2 mb-4">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0"
+                class="active p-0 m-0 rounded-circle border border-2 border-white" aria-current="true"
+                aria-label="Slide 1">
+            </button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"
+                class="p-0 m-0 rounded-circle border border-2 border-white" aria-label="Slide 2">
+            </button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"
+                class="p-0 m-0 rounded-circle border border-2 border-white" aria-label="Slide 3">
+            </button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active hero-slide" style="background-image: url('images/slide-1.jpg');">
+                <div class="hero-overlay bg-black bg-opacity-50"></div>
+                <div class="container hero-content d-flex align-items-center">
+                    <div class="hero-text text-white">
+                        <h1 class="display-2 fw-normal lh-sm mb-4 mb-lg-5">THE BEST BUSINESS<br>CONSULTING</h1>
+                        <a href="#"
+                            class="btn hero-btn btn-info text-white fs-5 px-4 py-3 border-2 rounded-0 text-decoration-none">PURCHASE
+                            NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item hero-slide" style="background-image: url('images/slide-2.jpg');">
+                <div class="hero-overlay bg-black bg-opacity-50"></div>
+                <div class="container hero-content d-flex align-items-center">
+                    <div class="hero-text text-white">
+                        <h1 class="display-2 fw-normal lh-sm mb-4 mb-lg-5">GROW YOUR<br>BUSINESS</h1>
+                        <a href="#"
+                            class="btn hero-btn btn-info text-white fs-5 px-4 py-3 border-2 rounded-0 text-decoration-none">PURCHASE
+                            NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item hero-slide" style="background-image: url('images/slide-3.jpg');">
+                <div class="hero-overlay bg-black bg-opacity-50"></div>
+                <div class="container hero-content d-flex align-items-center">
+                    <div class="hero-text text-white">
+                        <h1 class="display-2 fw-normal lh-sm mb-4 mb-lg-5">PROFESSIONAL<br>CONSULTING SERVICES</h1>
+                        <a href="#"
+                            class="btn hero-btn btn-info text-white fs-5 px-4 py-3 border-2 rounded-0 text-decoration-none">PURCHASE
+                            NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="about-section bg-white py-5" id="about">
+        <div class="container py-lg-4">
+            <div class="text-center mb-5">
+                <h2 class="about-title display-5 fw-bold text-dark mb-1">About us</h2>
+                <p class="about-subtitle fs-5 text-secondary mb-3">
+                    Lorem ipsum Dummy text
+                </p>
+                <div class="about-divider bg-info rounded-pill mx-auto"></div>
+            </div>
+            <div class="row align-items-center g-4 g-lg-5">
+                <div class="col-lg-8 col-md-7">
+                    <h3 class="about-heading fs-3 fw-normal text-dark mb-4">
+                        Welcome to Adoo Finance &amp; Business
+                    </h3>
+                    <p class="about-description fs-5 lh-lg text-secondary mb-4">
+                        Lorem ipsum dolor sit amet, ei vis vidisse pertinax
+                        repudiandae. Ius ea primis rationibus, eam accusam
+                        efficiendi consequuntur ex. Duo modo vocent ancillae
+                        id, eam wisi phaedrum petentium ne. Inermis ponderum
+                        pro ea.
+                    </p>
+                    <p class="about-description fs-5 lh-lg text-secondary mb-4">
+                        Primis moderatius te pri. Id erant feugait his, eu
+                        quis euripidis nec. Id nonumy insolens usu. At option
+                        iisque debitis qui, audire scribentur vim at. Ex his
+                        ipsum malis, ius an feugiat conclusionemque. Case
+                        saepe dicant eos in, an doming integre ornatus.
+                    </p>
+                    <a href="#" class="btn about-btn btn-info text-white border-2 rounded-0 px-4 py-3 fs-6">
+                        READ MORE
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-5">
+                    <div class="about-video position-relative mx-auto rounded-3 overflow-hidden">
+                        <img src="images/about.jpg" alt="Business team" class="img-fluid w-100 d-block about-video-img">
+                        <a href="https://www.youtube.com/watch?v=g8AdWH3DcCQ" target="_blank"
+                            class="play-button d-flex justify-content-center align-items-center text-white text-decoration-none display-4 rounded-circle border border-4 border-white"
+                            aria-label="Play video">
+                            <i class="bi bi-play-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services-section bg-light py-5" id="services">
+        <div class="container py-lg-4">
+            <div class="text-center mb-5">
+                <h2 class="services-title display-5 fw-bold text-dark mb-1">Our Services</h2>
+                <p class="services-subtitle fs-5 text-secondary mb-3">
+                    It's Best Simple &amp; Useful
+                </p>
+                <div class="services-divider bg-info rounded-pill mx-auto"></div>
+            </div>
+            <div class="row justify-content-center g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card service-card h-100 bg-white rounded-0">
+                        <img src="images/service-1.jpg" class="card-img-top service-img rounded-0"
+                            alt="Business results">
+                        <div
+                            class="service-icon bg-info text-white rounded-2 d-flex justify-content-center align-items-center fs-3">
+                            <i class="bi bi-graph-up-arrow"></i>
+                        </div>
+                        <div class="card-body service-body pt-5 px-4 pb-4 mt-2">
+                            <h3 class="card-title service-heading fs-4 fw-normal text-dark mb-3">
+                                We make best Result
+                            </h3>
+                            <p class="card-text service-description text-secondary fs-6 lh-base mb-4">
+                                Lorem ipsum dolor sit amet, ei vis vidisse
+                                pertinax repudiandae. Ius ea primis
+                                rationibus, eam accusam efficiendi
+                                consequuntur ex.
+                            </p>
+                            <a href="#" class="btn service-btn btn-info text-white border-2 rounded-0 px-3 py-2 small">
+                                LEARN MORE <i class="bi bi-arrow-right ms-1 fs-6"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card service-card h-100 bg-white rounded-0">
+                        <img src="images/service-2.jpg" class="card-img-top service-img rounded-0"
+                            alt="Business consulting team">
+                        <div
+                            class="service-icon bg-info text-white rounded-2 d-flex justify-content-center align-items-center fs-3">
+                            <i class="bi bi-briefcase"></i>
+                        </div>
+                        <div class="card-body service-body pt-5 px-4 pb-4 mt-2">
+                            <h3 class="card-title service-heading fs-4 fw-normal text-dark mb-3">
+                                We make best Result
+                            </h3>
+                            <p class="card-text service-description text-secondary fs-6 lh-base mb-4">
+                                Lorem ipsum dolor sit amet, ei vis vidisse
+                                pertinax repudiandae. Ius ea primis
+                                rationibus, eam accusam efficiendi
+                                consequuntur.
+                            </p>
+                            <a href="#" class="btn service-btn btn-info text-white border-2 rounded-0 px-3 py-2 small">
+                                LEARN MORE <i class="bi bi-arrow-right ms-1 fs-6"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card service-card h-100 bg-white rounded-0">
+                        <img src="images/service-3.jpg" class="card-img-top service-img rounded-0"
+                            alt="Online business services">
+                        <div
+                            class="service-icon bg-info text-white rounded-2 d-flex justify-content-center align-items-center fs-3">
+                            <i class="bi bi-globe-americas"></i>
+                        </div>
+                        <div class="card-body service-body pt-5 px-4 pb-4 mt-2">
+                            <h3 class="card-title service-heading fs-4 fw-normal text-dark mb-3">
+                                We make best Result
+                            </h3>
+                            <p class="card-text service-description text-secondary fs-6 lh-base mb-4">
+                                Lorem ipsum dolor sit amet, ei vis vidisse
+                                pertinax repudiandae. Ius ea primis
+                                rationibus, eam accusam efficiendi
+                                consequuntur ex.
+                            </p>
+                            <a href="#" class="btn service-btn btn-info text-white border-2 rounded-0 px-3 py-2 small">
+                                LEARN MORE <i class="bi bi-arrow-right ms-1 fs-6"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="goals-section bg-white overflow-hidden pt-4 pb-5" id="goals">
+        <div class="container pb-lg-4">
+            <div class="text-center goals-header mb-5">
+                <h2 class="display-5 fw-bold text-dark mb-1">Our Goals</h2>
+                <p class="text-secondary fs-5 mb-3">It's Best Simple &amp; Useful</p>
+                <div class="goals-divider bg-info rounded-pill mx-auto"></div>
+            </div>
+            <div class="row goals-layout position-relative mx-auto align-items-start">
+                <div class="col-lg-4 goals-image-col position-relative z-2 p-0">
+                    <img src="images/gole.jpg" alt="Business professional working"
+                        class="img-fluid w-100 d-block goals-image">
+                </div>
+                <div class="col-lg-8 goals-panel position-relative z-1 bg-light">
+                    <h3 class="fw-normal text-dark fs-3 mb-4">Our vision &amp; Mission</h3>
+                    <p class="text-secondary fs-6 lh-lg mb-4">
+                        Lorem ipsum dolor sit amet, ei vis vidisse pertinax
+                        repudiandae. Ius ea primis rationibus, eam accusam
+                        efficiendi consequuntur ex. Duo modo vocent ancillae
+                        id, eam wisi phaedrum petentium ne. Inermis ponderum
+                        pro ea, has et velit numquam. Ut modo enim vel, novum
+                        liber philosophia cu vel, ex eos patrioque assentior.
+                        Mutat maiestatis mei ad, id eam ocurreret dignissim.
+                    </p>
+                    <p class="text-secondary fs-6 lh-lg mb-4">
+                        Primis moderatius te pri. Id erant feugait his, eu
+                        quis euripidis nec. Id nonumy insolens usu. At option
+                        iisque debitis qui, audire scribentur vim at. Ex his
+                        ipsum malis, ius an feugiat conclusionemque. Case saepe
+                        dicant eos in, an doming integre ornatus.
+                    </p>
+                    <div class="row goals-list mt-4">
+                        <div class="col-md-6">
+                            <ul class="list-unstyled p-0 m-0">
+                                <li class="d-flex align-items-center gap-2 text-secondary fs-6 lh-sm mb-3"><i
+                                        class="bi bi-record-circle flex-shrink-0 text-info fs-6"></i><span>Falli
+                                        dolores
+                                        quaerendum</span></li>
+                                <li class="d-flex align-items-center gap-2 text-secondary fs-6 lh-sm mb-3"><i
+                                        class="bi bi-record-circle flex-shrink-0 text-info fs-6"></i><span>Eu sea
+                                        fugit tempor</span>
+                                </li>
+                                <li class="d-flex align-items-center gap-2 text-secondary fs-6 lh-sm mb-3"><i
+                                        class="bi bi-record-circle flex-shrink-0 text-info fs-6"></i><span>No pri
+                                        suas accusata</span>
+                                </li>
+                                <li class="d-flex align-items-center gap-2 text-secondary fs-6 lh-sm mb-3"><i
+                                        class="bi bi-record-circle flex-shrink-0 text-info fs-6"></i><span>Has duis
+                                        invenire</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-unstyled p-0 m-0">
+                                <li class="d-flex align-items-center gap-2 text-secondary fs-6 lh-sm mb-3"><i
+                                        class="bi bi-record-circle flex-shrink-0 text-info fs-6"></i><span>simul
+                                        offendit nam et</span>
+                                </li>
+                                <li class="d-flex align-items-center gap-2 text-secondary fs-6 lh-sm mb-3"><i
+                                        class="bi bi-record-circle flex-shrink-0 text-info fs-6"></i><span>fuisset
+                                        lobortis Sint</span>
+                                </li>
+                                <li class="d-flex align-items-center gap-2 text-secondary fs-6 lh-sm mb-3"><i
+                                        class="bi bi-record-circle flex-shrink-0 text-info fs-6"></i><span>Dictas
+                                        dissentiunt</span>
+                                </li>
+                                <li class="d-flex align-items-center gap-2 text-secondary fs-6 lh-sm mb-3"><i
+                                        class="bi bi-record-circle flex-shrink-0 text-info fs-6"></i><span>maiorum
+                                        habemus</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#"
+                        class="btn goals-btn btn-info text-white border-2 rounded-0 px-4 py-3 mt-3 fs-6">PURCHASE
+                        NOW</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="stats-section bg-light py-5">
+        <div class="container py-lg-4">
+            <div class="row g-4">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="stat-card text-center bg-white pt-5 pb-4 px-2 mt-4">
+                        <div
+                            class="stat-icon bg-info text-white rounded-3 d-flex align-items-center justify-content-center fs-2">
+                            <i class="bi bi-lightbulb"></i>
+                        </div>
+                        <h2 class="display-2 fw-normal text-dark lh-sm mb-3 mt-2">658</h2>
+                        <p class="fs-5 text-secondary mb-0">PROJECT COMPLETED</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="stat-card text-center bg-white pt-5 pb-4 px-2 mt-4">
+                        <div
+                            class="stat-icon bg-info text-white rounded-3 d-flex align-items-center justify-content-center fs-2">
+                            <i class="bi bi-people"></i>
+                        </div>
+                        <h2 class="display-2 fw-normal text-dark lh-sm mb-3 mt-2">1248</h2>
+                        <p class="fs-5 text-secondary mb-0">HAPPY CLIENT</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="stat-card text-center bg-white pt-5 pb-4 px-2 mt-4">
+                        <div
+                            class="stat-icon bg-info text-white rounded-3 d-flex align-items-center justify-content-center fs-2">
+                            <i class="bi bi-person-workspace"></i>
+                        </div>
+                        <h2 class="display-2 fw-normal text-dark lh-sm mb-3 mt-2">2246</h2>
+                        <p class="fs-5 text-secondary mb-0">TOTAL RATING</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="stat-card text-center bg-white pt-5 pb-4 px-2 mt-4">
+                        <div
+                            class="stat-icon bg-info text-white rounded-3 d-flex align-items-center justify-content-center fs-2">
+                            <i class="bi bi-trophy"></i>
+                        </div>
+                        <h2 class="display-2 fw-normal text-dark lh-sm mb-3 mt-2">768</h2>
+                        <p class="fs-5 text-secondary mb-0">AWARD WINNING</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects-section bg-white py-5" id="projects">
+        <div class="container py-lg-4">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-lg-4">
+                    <h2 class="projects-title display-5 fw-bold text-dark mb-1">Our Projects</h2>
+                    <p class="projects-subtitle text-secondary fs-5 mb-3">It's Best Simple &amp; Useful</p>
+                    <div class="projects-divider bg-info rounded-pill "></div>
+                    <p class="projects-description text-secondary fs-5 lh-lg mt-4 mb-4">
+                        Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry's standard
+                        dummy text ever since the 1500s.
+                    </p>
+                    <a href="#" class="btn projects-btn btn-info text-white border-2 rounded-0 px-4 py-3">
+                        VIEW ALL PROJECT
+                    </a>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <ul class="nav nav-pills project-tabs mb-4 pb-1 gap-2 flex-wrap" id="projectTabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active rounded-0 px-3 py-2 fs-6 fw-medium" id="all-tab"
+                                data-bs-toggle="tab" data-bs-target="#all-projects" type="button" role="tab">
+                                All Projects
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link rounded-0 px-3 py-2 fs-6 fw-medium" id="business-tab"
+                                data-bs-toggle="tab" data-bs-target="#business-projects" type="button" role="tab">
+                                Business
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link rounded-0 px-3 py-2 fs-6 fw-medium" id="finance-tab"
+                                data-bs-toggle="tab" data-bs-target="#finance-projects" type="button" role="tab">
+                                Finance
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link rounded-0 px-3 py-2 fs-6 fw-medium" id="consulting-tab"
+                                data-bs-toggle="tab" data-bs-target="#consulting-projects" type="button" role="tab">
+                                Consulting
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="projectTabsContent">
+                        <div class="tab-pane fade show active" id="all-projects" role="tabpanel"
+                            aria-labelledby="all-tab" tabindex="0">
+                            <div class="row g-3">
+                                <div class="col-12 col-md-6">
+                                    <div class="project-card bg-light">
+                                        <img src="images/project-1.jpg" alt="Creative business project">
+                                        <div
+                                            class="project-overlay d-flex flex-column justify-content-center align-items-center p-4 text-center text-white bg-info">
+                                            <h4 class="fs-4 fw-normal mb-3">Creative Projects</h4>
+                                            <p class="fs-6 lh-base mb-3">It is a long established fact that a reader
+                                                will be distracted.</p>
+                                            <a href="#"
+                                                class="project-readmore btn btn-outline-light rounded-0 px-3 py-2 text-decoration-none">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="project-card bg-light">
+                                        <img src="images/project-2.jpg" alt="Business partnership">
+                                        <div
+                                            class="project-overlay d-flex flex-column justify-content-center align-items-center p-4 text-center text-white bg-info">
+                                            <h4 class="fs-4 fw-normal mb-3">Business Projects</h4>
+                                            <p class="fs-6 lh-base mb-3">Explore our professional business solutions.
+                                            </p>
+                                            <a href="#"
+                                                class="project-readmore btn btn-outline-light rounded-0 px-3 py-2 text-decoration-none">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="project-card bg-light">
+                                        <img src="images/project-3.jpg" alt="Financial planning project">
+                                        <div
+                                            class="project-overlay d-flex flex-column justify-content-center align-items-center p-4 text-center text-white bg-info">
+                                            <h4 class="fs-4 fw-normal mb-3">Finance Projects</h4>
+                                            <p class="fs-6 lh-base mb-3">Discover our financial planning and services.
+                                            </p>
+                                            <a href="#"
+                                                class="project-readmore btn btn-outline-light rounded-0 px-3 py-2 text-decoration-none">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="project-card bg-light">
+                                        <img src="images/project-4.jpg" alt="Consulting team project">
+                                        <div
+                                            class="project-overlay d-flex flex-column justify-content-center align-items-center p-4 text-center text-white bg-info">
+                                            <h4 class="fs-4 fw-normal mb-3">Consulting Projects</h4>
+                                            <p class="fs-6 lh-base mb-3">We provide smart solutions for your business.
+                                            </p>
+                                            <a href="#"
+                                                class="project-readmore btn btn-outline-light rounded-0 px-3 py-2 text-decoration-none">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="business-projects" role="tabpanel" aria-labelledby="business-tab"
+                            tabindex="0">
+                            <div class="row g-3">
+                                <div class="col-12 col-md-6">
+                                    <div class="project-card bg-light">
+                                        <img src="images/project-1.jpg" alt="Business project">
+                                        <div
+                                            class="project-overlay d-flex flex-column justify-content-center align-items-center p-4 text-center text-white bg-info">
+                                            <h4 class="fs-4 fw-normal mb-3">Business Strategy</h4>
+                                            <p class="fs-6 lh-base mb-3">Building better business opportunities.</p>
+                                            <a href="#"
+                                                class="project-readmore btn btn-outline-light rounded-0 px-3 py-2 text-decoration-none">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="project-card bg-light">
+                                        <img src="images/project-2.jpg" alt="Business partnership">
+                                        <div
+                                            class="project-overlay d-flex flex-column justify-content-center align-items-center p-4 text-center text-white bg-info">
+                                            <h4 class="fs-4 fw-normal mb-3">Business Partnership</h4>
+                                            <p class="fs-6 lh-base mb-3">Growing through strong partnerships.</p>
+                                            <a href="#"
+                                                class="project-readmore btn btn-outline-light rounded-0 px-3 py-2 text-decoration-none">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="finance-projects" role="tabpanel" aria-labelledby="finance-tab"
+                            tabindex="0">
+                            <div class="row g-3">
+                                <div class="col-12 col-md-6">
+                                    <div class="project-card bg-light">
+                                        <img src="images/project-3.jpg" alt="Finance project">
+                                        <div
+                                            class="project-overlay d-flex flex-column justify-content-center align-items-center p-4 text-center text-white bg-info">
+                                            <h4 class="fs-4 fw-normal mb-3">Financial Planning</h4>
+                                            <p class="fs-6 lh-base mb-3">Planning for a stronger financial future.</p>
+                                            <a href="#"
+                                                class="project-readmore btn btn-outline-light rounded-0 px-3 py-2 text-decoration-none">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="consulting-projects" role="tabpanel"
+                            aria-labelledby="consulting-tab" tabindex="0">
+                            <div class="row g-3">
+                                <div class="col-12 col-md-6">
+                                    <div class="project-card bg-light">
+                                        <img src="images/project-4.jpg" alt="Consulting project">
+                                        <div
+                                            class="project-overlay d-flex flex-column justify-content-center align-items-center p-4 text-center text-white bg-info">
+                                            <h4 class="fs-4 fw-normal mb-3">Professional Consulting</h4>
+                                            <p class="fs-6 lh-base mb-3">Expert guidance for business growth.</p>
+                                            <a href="#"
+                                                class="project-readmore btn btn-outline-light rounded-0 px-3 py-2 text-decoration-none">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="project-cta bg-info text-white py-5">
+        <div class="container py-lg-2">
+            <div class="row align-items-center gy-4">
+                <div class="col-12 col-lg-8">
+                    <h2 class="fs-1 fw-normal mb-2">We always stay with our clients.</h2>
+                    <p class="fs-5 lh-base mb-0">
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Phasellus blandit massa enim.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-4 text-lg-end">
+                    <a href="#" class="btn cta-btn btn-light text-info border-2 rounded-0 px-4 py-3">PURCHASE NOW</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pricing-section bg-white py-5" id="pricing">
+        <div class="container py-lg-4">
+            <div class="text-center pricing-heading mb-5">
+                <h2 class="display-5 fw-bold text-dark mb-1">Our Pricing</h2>
+                <p class="text-secondary fs-5 mb-3">It's Best Simple &amp; Useful</p>
+                <div class="pricing-divider bg-info rounded-pill mx-auto"></div>
+            </div>
+            <div class="row justify-content-center g-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="pricing-card bg-light text-dark rounded-4 py-5 px-4 text-center h-100">
+                        <h4 class="fs-4 fw-semibold mb-4">Basic Plan</h4>
+                        <div class="pricing-price">
+                            <span class="d-block text-info display-3 fw-bold lh-sm">$99</span>
+                            <p class="text-dark fs-6 fw-semibold mb-4">per month</p>
+                        </div>
+                        <ul class="list-unstyled pricing-features mb-4">
+                            <li class="text-secondary fs-6 lh-base mb-3">Additional Features</li>
+                            <li class="text-secondary fs-6 lh-base mb-3">Free Email Support</li>
+                            <li class="text-secondary fs-6 lh-base mb-3">10 Domain</li>
+                            <li class="text-secondary fs-6 lh-base mb-3">24/7 Support</li>
+                            <li class="text-secondary fs-6 lh-base mb-3">Single User</li>
+                        </ul>
+                        <a href="#"
+                            class="btn pricing-btn btn-info text-white border-2 rounded-pill px-4 py-3 fs-6 fw-medium">
+                            GET STARTED
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="pricing-card pricing-featured bg-info text-white rounded-4 py-5 px-4 text-center h-100">
+                        <h4 class="fs-4 fw-semibold mb-4">Pro Plan</h4>
+                        <div class="pricing-price">
+                            <span class="d-block text-white display-3 fw-bold lh-sm">$199</span>
+                            <p class="text-white fs-6 fw-semibold mb-4">per month</p>
+                        </div>
+                        <ul class="list-unstyled pricing-features mb-4">
+                            <li class="text-white fs-6 lh-base mb-3">Additional Features</li>
+                            <li class="text-white fs-6 lh-base mb-3">Free Email Support</li>
+                            <li class="text-white fs-6 lh-base mb-3">10 Domain</li>
+                            <li class="text-white fs-6 lh-base mb-3">24/7 Support</li>
+                            <li class="text-white fs-6 lh-base mb-3">Single User</li>
+                        </ul>
+                        <a href="#"
+                            class="btn pricing-btn btn-light text-info border-2 rounded-pill px-4 py-3 fs-6 fw-medium">
+                            GET STARTED
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="pricing-card bg-light text-dark rounded-4 py-5 px-4 text-center h-100">
+                        <h4 class="fs-4 fw-semibold mb-4">Premium Plan</h4>
+                        <div class="pricing-price">
+                            <span class="d-block text-info display-3 fw-bold lh-sm">$299</span>
+                            <p class="text-dark fs-6 fw-semibold mb-4">per month</p>
+                        </div>
+                        <ul class="list-unstyled pricing-features mb-4">
+                            <li class="text-secondary fs-6 lh-base mb-3">Additional Features</li>
+                            <li class="text-secondary fs-6 lh-base mb-3">Free Email Support</li>
+                            <li class="text-secondary fs-6 lh-base mb-3">10 Domain</li>
+                            <li class="text-secondary fs-6 lh-base mb-3">24/7 Support</li>
+                            <li class="text-secondary fs-6 lh-base mb-3">Single User</li>
+                        </ul>
+                        <a href="#"
+                            class="btn pricing-btn btn-info text-white border-2 rounded-pill px-4 py-3 fs-6 fw-medium">
+                            GET STARTED
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="team-section bg-light py-5" id="team">
+        <div class="container py-lg-4">
+            <div class="text-center team-heading mb-5">
+                <h2 class="display-5 fw-bold text-dark mb-1">Support Team</h2>
+                <p class="text-secondary fs-5 mb-3">It's Best Simple &amp; Useful</p>
+                <div class="team-divider bg-info rounded-pill mx-auto"></div>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="team-card bg-white text-center h-100">
+                        <div class="team-image">
+                            <img src="images/team-1.jpg" alt="John Newman" class="img-fluid w-100">
+                        </div>
+                        <div
+                            class="team-social mx-auto py-2 px-2 d-flex justify-content-center align-items-center gap-3 bg-info rounded-2">
+                            <a href="#" aria-label="Facebook"
+                                class="d-inline-flex align-items-center justify-content-center text-white fs-5 text-decoration-none">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="#" aria-label="Twitter"
+                                class="d-inline-flex align-items-center justify-content-center text-white fs-5 text-decoration-none">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                            <a href="#" aria-label="LinkedIn"
+                                class="d-inline-flex align-items-center justify-content-center text-white fs-5 text-decoration-none">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="#" aria-label="Instagram"
+                                class="d-inline-flex align-items-center justify-content-center text-white fs-5 text-decoration-none">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="#" aria-label="Pinterest"
+                                class="d-inline-flex align-items-center justify-content-center text-white fs-5 text-decoration-none">
+                                <i class="bi bi-pinterest"></i>
+                            </a>
+                        </div>
+                        <div class="team-info pb-4 px-2">
+                            <h4 class="text-dark fs-4 fw-medium mb-1">John Newman</h4>
+                            <p class="text-secondary fs-6 mb-0">Founder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="team-card bg-white text-center h-100">
+                        <div class="team-image">
+                            <img src="images/team-2.jpg" alt="Craig Rutter" class="img-fluid w-100">
+                        </div>
+                        <div
+                            class="team-social mx-auto py-2 px-2 d-flex justify-content-center align-items-center gap-3 bg-info rounded-2">
+                            <a href="#" aria-label="Facebook"
+                                class="d-inline-flex align-items-center justify-content-center text-white fs-5 text-decoration-none"><i
+                                    class="bi bi-facebook"></i></a>
+                            <a href="#" aria-label="Twitter"
+                                class="d-inline-flex align-items-center justify-content-center text-white fs-5 text-decoration-none"><i
+                                    class="bi bi-twitter"></i></a>
+                            <a href="#" aria-label="LinkedIn"
+                                class="d-inline-flex align-items-center justify-content-center text-white fs-5 text-decoration-none"><i
+                                    class="bi bi-linkedin"></i></a>
+                            <a href="#" aria-label="Instagram"
+                                class="d-inline-flex align-items-center justify-content-center text-white fs-5 text-decoration-none"><i
+                                    class="bi bi-instagram"></i></a>
+                            <a href="#" aria-label="Pinterest"
+                                class="d-inline-flex align-items-center justify-content-center text-white fs-5 text-decoration-none"><i
+                                    class="bi bi-pinterest"></i></a>
+                        </div>
+                        <div class="team-info pb-4 px-2">
+                            <h4 class="text-dark fs-4 fw-medium mb-1">Craig Rutter</h4>
+                            <p class="text-secondary fs-6 mb-0">Founder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="team-card bg-white text-center h-100">
+                        <div class="team-image">
+                            <img src="images/team-3.jpg" alt="Stephanie Stone" class="img-fluid w-100">
+                        </div>
+                        <div
+                            class="team-social mx-auto py-2 px-2 d-flex justify-content-center align-items-center gap-3 bg-info rounded-2">
+                            <a href="#" aria-label="Facebook"
+                                class="d-inline-flex align-items-center justify-content-center text-white fs-5 text-decoration-none"><i
+                                    class="bi bi-facebook"></i></a>
+                            <a href="#" aria-label="Twitter"
+                                class="d-inline-flex align-items-center justify-content-center text-white fs-5 text-decoration-none"><i
+                                    class="bi bi-twitter"></i></a>
+                            <a href="#" aria-label="LinkedIn"
+                                class="d-inline-flex align-items-center justify-content-center text-white fs-5 text-decoration-none"><i
+                                    class="bi bi-linkedin"></i></a>
+                            <a href="#" aria-label="Instagram"
+                                class="d-inline-flex align-items-center justify-content-center text-white fs-5 text-decoration-none"><i
+                                    class="bi bi-instagram"></i></a>
+                            <a href="#" aria-label="Pinterest"
+                                class="d-inline-flex align-items-center justify-content-center text-white fs-5 text-decoration-none"><i
+                                    class="bi bi-pinterest"></i></a>
+                        </div>
+                        <div class="team-info pb-4 px-2">
+                            <h4 class="text-dark fs-4 fw-medium mb-1">Stephanie Stone</h4>
+                            <p class="text-secondary fs-6 mb-0">Founder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="team-card bg-white text-center h-100">
+                        <div class="team-image">
+                            <img src="images/team-4.jpg" alt="Beatrice Golden" class="img-fluid w-100">
+                        </div>
+                        <div
+                            class="team-social mx-auto py-2 px-2 d-flex justify-content-center align-items-center gap-3 bg-info rounded-2">
+                            <a href="#" aria-label="Facebook"
+                                class="d-inline-flex align-items-center justify-content-center text-white fs-5 text-decoration-none"><i
+                                    class="bi bi-facebook"></i></a>
+                            <a href="#" aria-label="Twitter"
+                                class="d-inline-flex align-items-center justify-content-center text-white fs-5 text-decoration-none"><i
+                                    class="bi bi-twitter"></i></a>
+                            <a href="#" aria-label="LinkedIn"
+                                class="d-inline-flex align-items-center justify-content-center text-white fs-5 text-decoration-none"><i
+                                    class="bi bi-linkedin"></i></a>
+                            <a href="#" aria-label="Instagram"
+                                class="d-inline-flex align-items-center justify-content-center text-white fs-5 text-decoration-none"><i
+                                    class="bi bi-instagram"></i></a>
+                            <a href="#" aria-label="Pinterest"
+                                class="d-inline-flex align-items-center justify-content-center text-white fs-5 text-decoration-none"><i
+                                    class="bi bi-pinterest"></i></a>
+                        </div>
+                        <div class="team-info pb-4 px-2">
+                            <h4 class="text-dark fs-4 fw-medium mb-1">Beatrice Golden</h4>
+                            <p class="text-secondary fs-6 mb-0">Founder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials-section bg-white overflow-hidden py-5" id="testimonial">
+        <div class="container py-lg-4">
+            <div class="text-center mb-5">
+                <h2 class="testimonial-title display-5 fw-bold text-dark mb-2">Clients Testimonials</h2>
+                <p class="testimonial-subtitle text-secondary fs-5 mb-3">It's Best Simple &amp; Useful</p>
+                <span class="testimonial-line d-block bg-info rounded-pill mx-auto"></span>
+            </div>
+            <div class="owl-carousel owl-theme testimonial-carousel">
+                <div class="item">
+                    <div
+                        class="testimonial-card bg-info text-white rounded-3 text-center p-4 mx-2 my-3 d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/author-1.jpg" alt="Client"
+                            class="client-img rounded-circle border border-4 border-white mb-3">
+                        <h5 class="fs-5 fw-semibold mb-1">Lissa Castro</h5>
+                        <p class="client-role fs-6 mb-2">Co-Founder</p>
+                        <div class="client-stars text-warning mb-3 small">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="client-review fs-6 lh-base mb-0">
+                            Lorem Ipsum is simply dummy text of the printing
+                            and typesetting industry since the 1500s.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div
+                        class="testimonial-card bg-info text-white rounded-3 text-center p-4 mx-2 my-3 d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/author2.jpg" alt="Client"
+                            class="client-img rounded-circle border border-4 border-white mb-3">
+                        <h5 class="fs-5 fw-semibold mb-1">David Miller</h5>
+                        <p class="client-role fs-6 mb-2">Manager</p>
+                        <div class="client-stars text-warning mb-3 small">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="client-review fs-6 lh-base mb-0">
+                            Excellent service and professional support.
+                            The entire experience was smooth and helpful.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div
+                        class="testimonial-card bg-info text-white rounded-3 text-center p-4 mx-2 my-3 d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/author3.jpg" alt="Client"
+                            class="client-img rounded-circle border border-4 border-white mb-3">
+                        <h5 class="fs-5 fw-semibold mb-1">Sarah Wilson</h5>
+                        <p class="client-role fs-6 mb-2">Designer</p>
+                        <div class="client-stars text-warning mb-3 small">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="client-review fs-6 lh-base mb-0">
+                            A wonderful experience with a friendly team.
+                            I would definitely recommend their service.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div
+                        class="testimonial-card bg-info text-white rounded-3 text-center p-4 mx-2 my-3 d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/author4.jpg" alt="Client"
+                            class="client-img rounded-circle border border-4 border-white mb-3">
+                        <h5 class="fs-5 fw-semibold mb-1">Michael James</h5>
+                        <p class="client-role fs-6 mb-2">Developer</p>
+                        <div class="client-stars text-warning mb-3 small">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="client-review fs-6 lh-base mb-0">
+                            Great quality, reliable support and excellent
+                            attention to detail throughout the project.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div
+                        class="testimonial-card bg-info text-white rounded-3 text-center p-4 mx-2 my-3 d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/author5.jpg" alt="Client"
+                            class="client-img rounded-circle border border-4 border-white mb-3">
+                        <h5 class="fs-5 fw-semibold mb-1">Emma Taylor</h5>
+                        <p class="client-role fs-6 mb-2">Business Owner</p>
+                        <div class="client-stars text-warning mb-3 small">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="client-review fs-6 lh-base mb-0">
+                            Very satisfied with the results. The service
+                            exceeded my expectations in every way.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="brands-section bg-info py-5">
+        <div class="container">
+            <div class="owl-carousel owl-theme brands-carousel">
+                <div class="item">
+                    <div
+                        class="brand-item d-flex align-items-center justify-content-center text-white user-select-none">
+                        <span class="brand-pingdom fs-2 fw-bold lh-1">pingdom</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div
+                        class="brand-item d-flex align-items-center justify-content-center text-white user-select-none">
+                        <span class="brand-envato d-inline-flex align-items-center fs-2 fw-medium lh-1">
+                            <i class="bi bi-droplet-fill fs-5 me-1"></i>
+                            envato
+                        </span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div
+                        class="brand-item d-flex align-items-center justify-content-center text-white user-select-none">
+                        <span class="brand-woo d-inline-flex align-items-center gap-1 lh-1">
+                            <span class="woo-text fs-5 fw-bold lh-1">COMMERCE</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div
+                        class="brand-item d-flex align-items-center justify-content-center text-white user-select-none">
+                        <span class="brand-magento d-inline-flex align-items-center fs-4 fw-normal lh-1">
+                            <i class="bi bi-hexagon-fill fs-3 me-2"></i>
+                            Magento
+                        </span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div
+                        class="brand-item d-flex align-items-center justify-content-center text-white user-select-none">
+                        <span class="brand-jquery fs-2 fw-bold fst-italic lh-1">jQuery</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="latest-news-section bg-white py-5" id="blog">
+        <div class="container py-lg-4">
+            <div class="text-center news-heading mb-5">
+                <h2 class="display-5 fw-bold text-dark mb-1">Latest News</h2>
+                <p class="text-secondary fs-5 mb-3">It's Best Simple &amp; Useful</p>
+                <span class="news-divider d-block bg-info rounded-pill mx-auto"></span>
+            </div>
+            <div class="row justify-content-center g-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card news-card h-100 rounded-0 overflow-hidden bg-white">
+                        <div class="news-image-wrapper">
+                            <img src="images/blog-1.jpg" class="news-img" alt="Business professional">
+                            <div class="news-image-overlay bg-info d-flex align-items-center justify-content-center">
+                                <a href="#"
+                                    class="news-link-icon d-flex align-items-center justify-content-center rounded-circle bg-white text-info text-decoration-none fs-3"
+                                    aria-label="Read news">
+                                    <i class="bi bi-link-45deg"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-body news-card-body p-4">
+                            <h5 class="card-title text-dark fs-4 fw-normal lh-sm mb-3">
+                                Smart strategies for financial growth
+                            </h5>
+                            <p class="card-text text-secondary fs-6 lh-lg mb-2">
+                                Discover effective ways to manage your business
+                                finances, optimize cash flow, and build a strong
+                                foundation for long-term stability.
+                            </p>
+                        </div>
+                        <div
+                            class="card-footer news-card-footer d-flex align-items-center flex-wrap gap-3 bg-white py-3 px-4 text-secondary fs-6">
+                            <span class="text-nowrap">
+                                <i class="bi bi-calendar3 text-info fs-6 me-1"></i>
+                                Jun 15, 2018
+                            </span>
+                            <span class="text-nowrap">
+                                <i class="bi bi-tag-fill text-info fs-6 me-1"></i>
+                                Planning
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card news-card h-100 rounded-0 overflow-hidden bg-white">
+                        <div class="news-image-wrapper">
+                            <img src="images/blog-2.jpg" class="news-img" alt="Business handshake">
+                            <div class="news-image-overlay bg-info d-flex align-items-center justify-content-center">
+                                <a href="#"
+                                    class="news-link-icon d-flex align-items-center justify-content-center rounded-circle bg-white text-info text-decoration-none fs-3"
+                                    aria-label="Read news">
+                                    <i class="bi bi-link-45deg"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-body news-card-body p-4">
+                            <h5 class="card-title text-dark fs-4 fw-normal lh-sm mb-3">
+                                Building strong business partnerships
+                            </h5>
+                            <p class="card-text text-secondary fs-6 lh-lg mb-2">
+                                Learn how strategic collaborations and trusted
+                                partnerships can unlock new market opportunities
+                                and accelerate company growth.
+                            </p>
+                        </div>
+                        <div
+                            class="card-footer news-card-footer d-flex align-items-center flex-wrap gap-3 bg-white py-3 px-4 text-secondary fs-6">
+                            <span class="text-nowrap">
+                                <i class="bi bi-calendar3 text-info fs-6 me-1"></i>
+                                Jul 22, 2018
+                            </span>
+                            <span class="text-nowrap">
+                                <i class="bi bi-tag-fill text-info fs-6 me-1"></i>
+                                Business
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card news-card h-100 rounded-0 overflow-hidden bg-white">
+                        <div class="news-image-wrapper">
+                            <img src="images/blog-3.jpg" class="news-img" alt="Business team meeting">
+                            <div class="news-image-overlay bg-info d-flex align-items-center justify-content-center">
+                                <a href="#"
+                                    class="news-link-icon d-flex align-items-center justify-content-center rounded-circle bg-white text-info text-decoration-none fs-3"
+                                    aria-label="Read news">
+                                    <i class="bi bi-link-45deg"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-body news-card-body p-4">
+                            <h5 class="card-title text-dark fs-4 fw-normal lh-sm mb-3">
+                                Modern consulting for growing teams
+                            </h5>
+                            <p class="card-text text-secondary fs-6 lh-lg mb-2">
+                                Explore proven consulting methods that help
+                                organizations improve productivity, streamline
+                                operations, and achieve better results.
+                            </p>
+                        </div>
+                        <div
+                            class="card-footer news-card-footer d-flex align-items-center flex-wrap gap-3 bg-white py-3 px-4 text-secondary fs-6">
+                            <span class="text-nowrap">
+                                <i class="bi bi-calendar3 text-info fs-6 me-1"></i>
+                                Aug 10, 2018
+                            </span>
+                            <span class="text-nowrap">
+                                <i class="bi bi-tag-fill text-info fs-6 me-1"></i>
+                                Consulting
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-section bg-white pb-5" id="contact">
+        <div class="contact-header bg-info text-center text-white pt-5 px-3">
+            <div class="container pt-lg-4">
+                <h2 class="display-5 fw-bold mb-1">Contact us</h2>
+                <p class="fs-5 fw-medium mb-3">If any query please contact now</p>
+                <span class="contact-divider d-block bg-white rounded-pill mx-auto"></span>
+            </div>
+        </div>
+        <div class="container contact-container">
+            <div class="contact-form-wrapper bg-white p-4 p-md-5">
+                <form action="#" method="post">
+                    <div class="row g-4">
+                        <div class="col-12 col-md-6">
+                            <input type="text"
+                                class="form-control contact-input w-100 py-3 px-4 fs-6 text-secondary bg-light rounded-0 shadow-none"
+                                name="name" placeholder="Your Name" aria-label="Your Name" required>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <input type="email"
+                                class="form-control contact-input w-100 py-3 px-4 fs-6 text-secondary bg-light rounded-0 shadow-none"
+                                name="email" placeholder="Your Email Address" aria-label="Your Email Address" required>
+                        </div>
+                        <div class="col-12">
+                            <input type="text"
+                                class="form-control contact-input w-100 py-3 px-4 fs-6 text-secondary bg-light rounded-0 shadow-none"
+                                name="subject" placeholder="Subject" aria-label="Subject" required>
+                        </div>
+                        <div class="col-12">
+                            <textarea
+                                class="form-control contact-input contact-message w-100 py-3 px-4 fs-6 text-secondary bg-light rounded-0 shadow-none"
+                                name="message" placeholder="How can i help you?" aria-label="Your message"
+                                required></textarea>
+                        </div>
+                        <div class="col-12 text-center contact-button-wrapper pt-3">
+                            <button type="submit"
+                                class="btn contact-btn btn-info text-white border-2 rounded-0 px-4 py-3 fs-5 fw-normal">
+                                CONTACT NOW
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="main-footer bg-dark text-secondary">
+        <div class="footer-top py-5">
+            <div class="container py-lg-3">
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="footer-about">
+                            <a href="#" class="footer-logo text-white d-inline-block mb-4">
+                                <img src="images/footer-logo.png" alt="Abvelt Logo" class="img-fluid">
+                            </a>
+                            <p class="footer-description text-secondary fs-6 lh-lg mb-4">
+                                Lorem ipsum lobors praesent auctor quis
+                                euismod torquent perneque modo class
+                                malesuada cubilia
+                            </p>
+                            <div class="footer-social d-flex flex-wrap gap-2">
+                                <a href="#" aria-label="Facebook"
+                                    class="d-flex align-items-center justify-content-center bg-black text-secondary small text-decoration-none">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                                <a href="#" aria-label="Twitter"
+                                    class="d-flex align-items-center justify-content-center bg-black text-secondary small text-decoration-none">
+                                    <i class="bi bi-twitter"></i>
+                                </a>
+                                <a href="#" aria-label="Instagram"
+                                    class="d-flex align-items-center justify-content-center bg-black text-secondary small text-decoration-none">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-2">
+                        <h5 class="footer-title text-white fs-5 fw-medium mb-4 text-nowrap">Resources</h5>
+                        <ul class="footer-links list-unstyled p-0 m-0">
+                            <li class="mb-2"><a href="#blog" class="text-secondary fs-6 text-decoration-none">Blog</a>
+                            </li>
+                            <li class="mb-2"><a href="#" class="text-secondary fs-6 text-decoration-none">Help
+                                    center</a></li>
+                            <li class="mb-2"><a href="#" class="text-secondary fs-6 text-decoration-none">Community</a>
+                            </li>
+                            <li class="mb-2"><a href="#"
+                                    class="text-secondary fs-6 text-decoration-none">Marketplace</a></li>
+                            <li class="mb-0"><a href="#" class="text-secondary fs-6 text-decoration-none">Career</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-2">
+                        <h5 class="footer-title text-white fs-5 fw-medium mb-4 text-nowrap">Important Links</h5>
+                        <ul class="footer-links list-unstyled p-0 m-0">
+                            <li class="mb-2"><a href="#pricing"
+                                    class="text-secondary fs-6 text-decoration-none">Pricing</a></li>
+                            <li class="mb-2"><a href="#contact" class="text-secondary fs-6 text-decoration-none">Contact
+                                    us</a></li>
+                            <li class="mb-2"><a href="#" class="text-secondary fs-6 text-decoration-none">Forum</a></li>
+                            <li class="mb-2"><a href="#" class="text-secondary fs-6 text-decoration-none">Live Chat</a>
+                            </li>
+                            <li class="mb-0"><a href="#"
+                                    class="text-secondary fs-6 text-decoration-none">Integration</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <h5 class="footer-title text-white fs-5 fw-medium mb-4 text-nowrap">Subscription</h5>
+                        <p class="footer-subtitle text-secondary fs-6 mb-3">
+                            Subscribe us to get latest update
+                        </p>
+                        <form class="footer-subscribe" action="#" method="post">
+                            <label for="footer-email" class="visually-hidden">
+                                Enter your email
+                            </label>
+                            <input type="email" id="footer-email" name="email" placeholder="Enter your email"
+                                class="d-block w-100 py-2 px-3 bg-black text-white border border-dark rounded-0 small mb-3"
+                                required>
+                            <button type="submit" class="btn btn-info text-white border-2 rounded-0 px-4 py-2 small">
+                                SUBSCRIBE
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom bg-black py-4 px-3">
+            <div class="container text-center">
+                <p class="text-secondary small lh-lg m-0">
+                    Copyright &copy; Untitled. All rights reserved. Design By <a href="#"
+                        class="text-secondary text-decoration-underline">Awaiken Theme</a> Images <a href="#"
+                        class="text-secondary text-decoration-underline">Unsplash</a>, <a href="#"
+                        class="text-secondary text-decoration-underline">Pixabay</a>, <a href="#"
+                        class="text-secondary text-decoration-underline">Freepik</a>, Icon <a href="#"
+                        class="text-secondary text-decoration-underline">Flaticon</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.testimonial-carousel').owlCarousel({
+                loop: true,
+                margin: 20,
+                nav: false,
+                dots: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                smartSpeed: 700,
+                slideBy: 1,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    501: {
+                        items: 2
+                    },
+                    1025: {
+                        items: 3
+                    }
+                }
+            });
+
+            $('.brands-carousel').owlCarousel({
+                loop: true,
+                margin: 30,
+                nav: false,
+                dots: false,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                smartSpeed: 700,
+                slideBy: 1,
+                responsive: {
+                    0: {
+                        items: 2
+                    },
+                    501: {
+                        items: 3
+                    },
+                    1025: {
+                        items: 5
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
